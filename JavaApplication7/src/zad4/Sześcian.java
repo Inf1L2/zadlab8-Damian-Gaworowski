@@ -34,4 +34,7 @@ public class Sześcian extends FiguraPrzestrzenna {
     public double obliczPole() {
         return 6 * Math.pow(a, 2);
     }
+    public String toString() {
+return "Sześcian======>" + "Bok" + this.a + "Objętość" + obliczObjetosc() + ", Pole" + obliczPole();
+}
 }

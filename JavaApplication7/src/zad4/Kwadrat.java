@@ -34,4 +34,7 @@ public class Kwadrat extends FiguraPłaska {
     public double obliczPole() {
         return a*a;
 }
+    public String toString() {
+    return "Kwadrat====> " + "Bok" + this.a + ", Obwód" + obliczObwod() + ", Pole" + obliczPole();
+    }
 }

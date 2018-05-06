@@ -44,4 +44,6 @@ public class Romb extends FiguraPłaska{
     public double obliczPole() {
         return x*z;
     }
-}
+    public String toString() {
+    return "Romb========> " + "Bok pierwszy" + this.x + ", Wys" + this.z + ", Obwód" + obliczObwod() + ", Pole" + obliczPole();
+}}

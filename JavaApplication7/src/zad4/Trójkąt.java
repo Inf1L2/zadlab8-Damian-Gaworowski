@@ -43,5 +43,8 @@ public class Trójkąt extends FiguraPłaska{
     public double obliczPole() {
         return (a*h)/2;
     }
+    public String toString() {
+        return "Trójkąt========> " + "Bok pierwszy" + this.a + " Wys" + this.h + ", Obwód" + obliczObwod() + ", Pole" + obliczPole();
+    }
 
 }

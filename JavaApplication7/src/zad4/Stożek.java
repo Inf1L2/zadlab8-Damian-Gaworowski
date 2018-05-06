@@ -53,4 +53,7 @@ public class Stożek extends FiguraPrzestrzenna{
     public double obliczPole() {
         return Math.PI*r*(r+l);
 }
+     public String toString() {
+     return "Stożek======> " + "Promień" + this.r + ", Wys" + this.h + " Tworząca" + this.l + ", Objętość" + obliczObjetosc() + ", Pole" + obliczPole();
+}
 }

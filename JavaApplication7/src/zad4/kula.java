@@ -40,4 +40,7 @@ public class kula extends FiguraPrzestrzenna{
     {
         return 4*Math.PI*Math.pow(r,2);
 }
+    public String toString() {
+        return "Kula======> " + "Promień" + this.r + ", Objętość" + obliczObjetosc() + ", Pole" + obliczPole();
+}
 }

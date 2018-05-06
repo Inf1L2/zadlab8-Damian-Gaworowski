@@ -52,4 +52,7 @@ public class Równoległobok extends FiguraPłaska{
     @Override
     public double obliczPole() {
         return x*z;
+}
+    public String toString() {
+    return "Równoległobok======> " + "Bok pierwszy" + this.x + ", Bok drugi" + this.y + ", Wys" + this.z + ", Obwód" + obliczObwod() + ", Pole" + obliczPole();
 }}

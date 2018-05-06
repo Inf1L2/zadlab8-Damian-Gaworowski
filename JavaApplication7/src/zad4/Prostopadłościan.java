@@ -53,4 +53,7 @@ public class Prostopadłościan extends FiguraPrzestrzenna {
     public double obliczPole() {
         return 2 * (a * b + a * c + b * c);
 }
+    public String toString() {
+    return "Prostopadłościan ====> " + "Bok pierwszy" + this.a + ", Bok drugi" + this.b + ", Bok trzeci" + this.c + ", Objętość" + obliczObjetosc() + ", Pole" + obliczPole();
+}
 }

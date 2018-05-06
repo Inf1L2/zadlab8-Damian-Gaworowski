@@ -44,5 +44,8 @@ public class Walec extends FiguraPrzestrzenna{
     public double obliczPole() {
         return 2*Math.PI*r*(r+h);
     }
+    public String toString() {
+        return "Walec=========> " + "Promień" + this.r + ", Wys" + this.h + ", Objętość" + obliczObjetosc() + ", Pole" + obliczPole();
+}
 
 }

@@ -71,4 +71,7 @@ public class Trapez extends FiguraPłaska{
     public double obliczPole() {
         return ((a+b)*h)/2;
     }
+    public String toString() {
+        return "Trapez======> " + "Bok pierwszy" + this.a + ", Bok drugi" + this.b + ", Bok trzeci" + this.c + ", Bok czwarty" + this.d + ", Wys" + this.h + ", Obwód" + obliczObwod() + ", Pole" + obliczPole();
+    }
 }

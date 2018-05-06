@@ -37,7 +37,9 @@ public class koło extends FiguraPłaska{
     public double obliczPole() {
         return Math.PI*Math.pow(r,2);
     }
-
+public String toString() {
+        return "Koło=========> " + "Promień" + this.r + ", Obwód" + obliczObwod() + ", Pole" + obliczPole();
+}
     
 }
 

@@ -46,4 +46,7 @@ public class Prostokąt extends FiguraPłaska{
     public double obliczPole() {
         return a*b;
 }
+    public String toString() {
+   return "Prostokąt====> " + "Bok pierwszy" + this.a + ", Bok drugi" + this.b + ", Obwód" + obliczObwod() + " Pole" + obliczPole();
+}
 }
